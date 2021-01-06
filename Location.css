@@ -1,0 +1,78 @@
+.mapeditor {
+	
+	border: 20px solid black;
+}
+.mapbutton {
+	
+	float:right;
+}
+
+.u-section-1 {
+  background-image: linear-gradient(#808080, #3f4759);
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 579px;
+}
+
+.u-section-1 .u-map-1 {
+  width: 1104px;
+  height: 441px;
+  margin: 30px auto 0;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 570px;
+  height: 503px;
+  box-shadow: 8px 5px 23px 0 rgba(242,242,242,1);
+  margin: -463px -27px 0 auto;
+}
+
+.u-section-1 .u-shape-2 {
+  width: 570px;
+  height: 503px;
+  box-shadow: -8px 7px 23px 0 rgba(217,217,217,1);
+  margin: -503px auto 60px -17px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-map-1 {
+    width: 940px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-map-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-map-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 540px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-shape-2 {
+    width: 540px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-map-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-shape-2 {
+    width: 340px;
+  }
+}
